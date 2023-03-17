@@ -717,6 +717,9 @@ ul {
         padding: 1rem 3rem 1rem 1.875rem;
     }
     
+   .content-two-image, .content-three-image, .content-four-image {
+        display: none;
+    }
 }
 
 /* for small devices */

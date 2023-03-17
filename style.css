@@ -712,7 +712,10 @@ ul {
         width: 82px;
         height: 60px;
     }
-    
+
+    .project__data {
+        padding: 1rem 3rem 1rem 1.875rem;
+    }
     
 }
 

@@ -585,7 +585,7 @@ ul {
         padding: 15% 25% 40% 25%;
     }
 
-    .content-two, .content-four, .project__item {
+    .content-two, .content-four, .project__item, .container {
         display: flex;
         flex-direction:column;
         align-items:center;

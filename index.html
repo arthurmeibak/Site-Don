@@ -22,31 +22,37 @@
     <header class="header">
         <img class="header-image" src="./Assets/Logo-1.png" alt="website logo">
         <nav class="header-menu">
-            <ul>
-                <li>
+            <ul class="nav-menu">
+                <li class="nav-item">
                     <a href="#home" class="header-menu-item">Home</a>
                 </li>
 
-                <li>
+                <li class="nav-item">
                     <a href="#services" class="header-menu-item">Services</a>
                 </li>
 
-                <li>
-                    <a href="#projects" class="header-menu-item">Projects</a>
+                <li class="nav-item">
+                    <a href="#portfolio" class="header-menu-item">Projects</a>
                 </li>
 
-                <li>
+                <li class="nav-item">
                     <a href="#about" class="header-menu-item">About</a>
                 </li>
 
-                <li>
+                <li class="nav-item">
                     <a href="#contact" class="header-menu-item">Contact</a>
                 </li>
             </ul>
+
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
         </nav>
     </header>
 
-    <main class="content">
+    <main class="content" id="main-container">
         <section class="content-main"  id="home">
             <h1 class="content-main-title"><strong>Landscape</strong> architect landing projects in <strong>Stuttgart</strong></h1>
         </section>
@@ -87,61 +93,7 @@
             </section>
 
             <!--==========Portfolio==========-->
-            <!--section class="content-five"  id="projects">
-                
-                <h2 class="content-five-title">Projects</h2>
-                <nav class="content-five-projects-all">
-                    <nav class="content-five-project-1">
-                        <img class="content-five-projects-image-braganca" src="C:\Users\arthu\Projects\Site-Don\Assets\Portfolio-1.svg" alt="project photo">
-                        <nav class="content-five-project-infos">
-                            <h3 class="content-five-projects-infos-title">Braganca Paulista, Brazil</h3>
-                            <h4 class="content-five-projects-infos-architects"><strong>ARCHITECTS: </strong>Jacobsen Arquitetura</h4>
-                            <h4 class="content-five-projects-infos-area"><strong>AREA: </strong>1200 m²</h4>
-                            <h4 class="content-five-projects-infos-year"><strong>YEAR: </strong>2016</h4>
-                            <h4 class="content-five-projects-infos-manufacturer"><strong>MANUFACTURERS: </strong>Atlas Concorde, Arteal, Ita Construtora, Lightworks, Neogran</h4>
-                        </nav>
-                    </nav>
-
-                    <nav>
-                        <nav class="content-five-project-2">
-                        <img class="content-five-project-saopaulo" src="C:\Users\arthu\Projects\Site-Don\Assets\Portfolio-2.svg" alt="project photo">
-                        <nav class="content-five-project-infos">
-                            <h3 class="content-five-projects-infos-title">Sao Paulo, Brazil</h3>
-                            <h4 class="content-five-projects-infos-architects"><strong>Architects: </strong>Dal Pian Arquitetos</h4>
-                            <h4 class="content-five-projects-infos-area"><strong>Area: </strong>6019 m²</h4>
-                            <h4 class="content-five-projects-infos-year"><strong>Year: </strong>2016</h4>
-                            <h4 class="content-five-projects-infos-manufacturer"><strong>Manufacturers: </strong>Atlas Schindler, Day Brasil, Deca, Eliane, Glassec, Hafele, Häffelle, Knauf, Mekal</h4>
-                        </nav>
-                    </nav>
-
-                    <nav>
-                        <nav class="content-five-project-3">
-                        <img class="content-five-project-rio" src="C:\Users\arthu\Projects\Site-Don\Assets\Portfolio-3.svg" alt="project photo">
-                        <nav class="content-five-project-infos">
-                            <h3 class="content-five-projects-infos-title">Rio de Janeiro, Brazil</h3>
-                            <h4 class="content-five-projects-infos-architects"><strong>Architects: </strong>Bernardes Arquitetura</h4>
-                            <h4 class="content-five-projects-infos-area"><strong>Area: </strong>720 m²</h4>
-                            <h4 class="content-five-projects-infos-year"><strong>Year: </strong>2015</h4>
-                            <h4 class="content-five-projects-infos-manufacturer"><strong>Manufacturers: </strong>panoramah, CAP Maison Marcenaria; Serpa, Deca, Lumini, Metais, Ornare, T2G</h4>
-                        </nav>
-                    </nav>
-
-                    <nav>
-                        <nav class="content-five-project-4">
-                        <img class="content-five-project-madrid" src="C:\Users\arthu\Projects\Site-Don\Assets\Portfolio-4.svg" alt="project photo">
-                        <nav class="content-five-project-infos">
-                            <h3 class="content-five-projects-infos-title">Madrid, Spain</h3>
-                            <h4 class="content-five-projects-infos-architects"><strong>Architects: </strong>Radomysler, Glogowski, studio mk27</h4>
-                            <h4 class="content-five-projects-infos-area"><strong>Area: </strong>5100 m²</h4>
-                            <h4 class="content-five-projects-infos-year"><strong>Year: </strong>2017</h4>
-                            <h4 class="content-five-projects-infos-manufacturer"><strong>Manufacturers: </strong>panoramah</h4>
-                        </nav>
-                    </nav>
-                
-                </nav>
-            </section-->
-
-
+            
             <section class="content-five section container" id="portfolio">
                 <h2 class="content-five section__title">Projects</h2>
 
@@ -291,10 +243,10 @@
                 <p class="footer-infos-phone">+49 (176) 7634 4455</p>
             </nav>
             <nav class="footer-anchors">
-                <p class="footer-anchors-home">Home</p>
-                <p class="footer-anchors-services">Services</p>
-                <p class="footer-anchors-projects">Projects</p>
-                <p class="footer-anchors-about">About</p>
+                <a href="#home" class="footer-anchors-home">Home</a>
+                <a href="#services" class="footer-anchors-services">Services</a>
+                <a href="#portfolio" class="footer-anchors-projects">Projects</a>
+                <a href="#about" class="footer-anchors-about">About</a>
             </nav>
             </footer>
         </section>

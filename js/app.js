@@ -23,3 +23,20 @@ let mixerProjects = mixitup('.projects__container', {
       duration: 300
   }
 });
+
+/*==========Hamburguer menu==========*/
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
+const background = document.querySelector("main");
+
+hamburger.addEventListener("click", () => {
+  hamburger.classList.toggle("active");
+  navMenu.classList.toggle("active");
+  background.classList.toggle("active");
+});
+
+document.querySelectorAll(".header-menu-item").forEach(n => n.addEventListener("click", () => {
+  hamburger.classList.remove("active");
+  navMenu.classList.remove("active");
+  background.classList.remove("active");
+ }));

@@ -537,12 +537,12 @@ ul {
         padding: 15% 25% 40% 25%;
     }
 
-   /*.hamburger {
+    .hamburger {
         display: block;
         padding-left: 25%;
         padding-bottom: 5%;
         z-index: 1;
-    }*/
+    }
 
     .content-two, .content-four, .project__item, .container {
         display: flex;
@@ -710,6 +710,7 @@ ul {
     
     .hamburger {
         display: block;
+        padding: auto;
         z-index: 1;
     }
 
@@ -771,4 +772,3 @@ ul {
 @media screen and (max-width: 350px) {
     
 }
-

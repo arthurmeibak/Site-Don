@@ -682,10 +682,6 @@ ul {
         right: 0;
     }
 
-    .nav-item {
-        padding-left: 60%;
-    }
-
     .header-menu-item {
         transition: 0.7s ease;
         margin: 16px 0;

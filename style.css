@@ -651,7 +651,8 @@ ul {
 
     .header {
         align-items: flex-start;
-         width: max-content;
+        width: max-content;
+        overflow: hidden;
     }
 
    .header-menu {

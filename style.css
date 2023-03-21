@@ -692,7 +692,7 @@ ul {
         color: #fff;
     }
 
-    .wrapper.active {
+    main.active {
         opacity: 0.3;
         transition: all 0.3s ease-in-out;
         z-index: 2;

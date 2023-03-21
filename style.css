@@ -498,7 +498,7 @@ ul {
 
 /*BreakPoints*/
 /* for large devices */
-@media screen and (max-width: 1200px) {
+/*@media screen and (max-width: 1200px) {
     
     .content-two-image, .content-three-image, .content-four-image, .content-six-content-image {
         margin-left: auto;
@@ -766,4 +766,4 @@ ul {
 /* for small devices */
 @media screen and (max-width: 350px) {
     
-}
+}*/

@@ -56,6 +56,10 @@
         outline: none;
     }
 
+.wrapper {
+        overflow-x: hidden;
+    }
+
 /*==========Reusable Css==========*/
 .container {
     max-width: 1140px;
@@ -650,8 +654,6 @@ ul {
     }
 
     .header {
-        align-items: flex-start;
-        justify-content: space-between;
         width: max-content;
     }
 

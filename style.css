@@ -648,6 +648,14 @@ ul {
 
 /* for medium devices */
 @media screen and (max-width: 768px) {
+    
+    body {
+        overflow-x: hidden !important;
+    }
+    .container {
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+    }
        
     .content-main-title {
         font-size: 40px;

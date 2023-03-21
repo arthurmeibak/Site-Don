@@ -665,18 +665,7 @@ ul {
         padding: 0 24px;
     }
    
-    .nav-menu {
-        position: fixed;
-        right: -100%;
-        top: 70px;
-        gap: 0;
-        flex-direction: column;
-        background-color: #4B664D;
-        width: 100%;
-        text-align: center;
-        transition: 0.3s;
-        z-index: 1;
-    }
+   
 
     .nav-menu.active {
         right: 0;

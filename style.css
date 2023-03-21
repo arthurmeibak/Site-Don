@@ -814,6 +814,10 @@ ul {
     .content-two-image, .content-three-image, .content-four-image {
         display: none;
     }
+    
+    .bar {
+        margin: 5px 100px;
+    }
 }
 
 /* for small devices */

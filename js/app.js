@@ -27,7 +27,7 @@ let mixerProjects = mixitup('.projects__container', {
 /*==========Hamburger menu==========*/
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
-const background = document.querySelector(".wrapper");
+const background = document.querySelector("main");
 
 hamburger.addEventListener("click", () => {
   hamburger.classList.toggle("active");

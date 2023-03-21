@@ -483,7 +483,7 @@ ul {
 }
 
 /*==========JS slide groups==========*/
-/*.slide-in {
+.slide-in {
     opacity: 0;
     filter: blur(5px);
     transform: translateX(-100%);
@@ -494,7 +494,7 @@ ul {
     opacity: 1;
     filter: blur(0);
     transform: translateX(0);
-}*/
+}
 
 /*BreakPoints*/
 /* for large devices */
@@ -645,7 +645,7 @@ ul {
 /* for medium devices */
 @media screen and (max-width: 768px) {
 
-   .content-main-title {
+    .content-main-title {
         font-size: 40px;
     }
 
@@ -767,3 +767,5 @@ ul {
 @media screen and (max-width: 350px) {
     
 }
+
+

@@ -18,13 +18,10 @@
         font-family: 'League Spartan', sans-serif;
     }
     
-    html {
+    body, html {
         scroll-behavior: smooth;
         max-width: 100%;
         overflow-x: hidden;
-    }
-    
-    body {
         background-color:  #2E363D;
         line-height: 1.5e;
     }

@@ -86,7 +86,7 @@
 
 
 /*==========Header==========*/
-/*.header {
+.header {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -98,7 +98,7 @@
     margin-right: auto;
     left: 0;
     right: 0;
-}*/
+}
 
 .header-menu {
     display: flex;
@@ -651,6 +651,7 @@ ul {
 
     .header {
         align-items: flex-start;
+         width: 60vh;
     }
 
    .header-menu {

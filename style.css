@@ -651,7 +651,7 @@ ul {
 
     .header {
         align-items: flex-start;
-         width: 60vh;
+         width: max-content;
     }
 
    .header-menu {

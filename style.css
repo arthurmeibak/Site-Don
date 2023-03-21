@@ -795,7 +795,7 @@ ul {
 @media screen and (max-width: 576px) { 
 
     .content-main-title {
-        font-size: 32px;
+        font-size: 24px;
     }
 
     .header-menu-item {
@@ -814,9 +814,9 @@ ul {
     .content-two-image, .content-three-image, .content-four-image {
         display: none;
     }
-    
+
     .bar {
-        margin: 5px 100px;
+        margin: 5px 200px;
     }
 }
 

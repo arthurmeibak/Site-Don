@@ -654,6 +654,8 @@ ul {
     }
 
     .header {
+        display: grid;
+        align-items: flex-start;
         width: max-content;
     }
 

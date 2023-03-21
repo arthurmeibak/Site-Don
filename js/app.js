@@ -24,7 +24,7 @@ let mixerProjects = mixitup('.projects__container', {
   }
 });
 
-/*==========Hamburguer menu==========*/
+/*==========Hamburger menu==========*/
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
 const background = document.querySelector(".wrapper");

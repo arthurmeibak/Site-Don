@@ -706,8 +706,6 @@ ul {
     
     .hamburger {
         display: block;
-        padding-left: 25%;
-        padding-bottom: 5%;
         z-index: 1;
     }
 

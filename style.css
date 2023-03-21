@@ -651,8 +651,8 @@ ul {
 
     .header {
         align-items: flex-start;
+        justify-content: space-between;
         width: max-content;
-        overflow: hidden;
     }
 
    .header-menu {
@@ -769,5 +769,7 @@ ul {
 @media screen and (max-width: 350px) {
     
 }
+
+
 
 

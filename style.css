@@ -10,7 +10,7 @@
   }
   
     /*==========Base==========*/
-    /** {
+    * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
@@ -54,7 +54,7 @@
         background: none;
         border: none;
         outline: none;
-    }*/
+    }
 
 /*==========Reusable Css==========*/
 .container {
@@ -86,7 +86,7 @@
 
 
 /*==========Header==========*/
-.header {
+/*.header {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -165,7 +165,7 @@ ul {
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     background-color: #fff;
-  }
+  }*/
  
   
 /*==========Hero==========*/

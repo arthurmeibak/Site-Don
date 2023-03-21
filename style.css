@@ -659,7 +659,6 @@ ul {
         justify-content: space-between;
         align-items:end;
         padding: 0 24px;
-        overflow-x: hidden;
     }
    
     .nav-menu {

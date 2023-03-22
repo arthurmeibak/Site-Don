@@ -691,6 +691,8 @@ ul {
     
     .hamburger {
         display: block;
+        cursor: pointer;
+        padding-bottom: 5%;
         z-index: 1;
     }
 

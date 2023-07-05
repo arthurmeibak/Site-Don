@@ -159,10 +159,6 @@ ul {
     flex-direction: column;
     background: url(./Assets/Hero-bg.jpg);
     background-position: center center;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-attachment:local;
     animation: zoomout 3s;
     -webkit-animation: zoomout 3s;
     animation-fill-mode: forwards;  
